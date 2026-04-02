@@ -1,0 +1,20 @@
+{
+  "app_id": {
+    "type": "string",
+    "description": "飞书 App ID",
+    "hint": "对应的飞书应用 App ID (cli_ 开头)",
+    "default": ""
+  },
+  "app_secret": {
+    "type": "string",
+    "description": "飞书 App Secret",
+    "hint": "对应的飞书应用的 App Secret",
+    "default": ""
+  },
+  "calendar_id": {
+    "type": "string",
+    "description": "专属日历 Calendar ID",
+    "hint": "通过 API 创建的公共日历 ID (feishu.cn_ 开头)",
+    "default": ""
+  }
+}

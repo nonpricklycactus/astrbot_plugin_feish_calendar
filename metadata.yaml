@@ -1,6 +1,19 @@
-name: helloworld # 插件唯一识别名，以 astrbot_plugin_ 前缀开头
-display_name: helloworld # 用于展示的名字，可以是方便人类阅读的名字（需要版本 >= v4.5.0，低版本不会报错，请放心填写）
-desc: AstrBot 插件示例。 # 插件简短描述
-version: v1.3.0 # 插件版本号。格式：v1.1.1 或者 v1.1
-author: Soulter # 作者
-repo: https://github.com/Soulter/helloworld # 插件的仓库地址
+name: astrbot_plugin_feish_calendar
+desc: 飞书日历插件
+help: 为 AstrBot 提供飞书日历的创建、删除和管理功能。
+version: 1.0.4
+author: nonpricklycactus
+repo: https://gentlecactus.top
+config:
+  app_id:
+    type: string
+    description: 飞书应用 App ID
+    default: ""
+  app_secret:
+    type: password
+    description: 飞书应用 App Secret
+    default: ""
+  calendar_id:
+    type: string
+    description: 专属日历的 Calendar ID (feishu.cn_ 开头)
+    default: ""
