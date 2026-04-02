@@ -1,9 +1,9 @@
-name: 飞书日历插件
-desc: 为 AstrBot 提供飞书日历的创建、删除和管理功能。
-help: 为 AstrBot 提供飞书日历的创建、删除和管理功能。
+name: astrbot_plugin_feish_calendar
+display_name: AstrBot 飞书日程管理
+desc: 这是一个为 AstrBot 设计的飞书日历插件，支持自动创建、删除和管理飞书日历中的日程
 version: 1.0.5
 author: nonpricklycactus
-repo: https://gentlecactus.top
+repo: https://github.com/nonpricklycactus/astrbot_plugin_feish_calendar
 config:
   app_id:
     type: string
